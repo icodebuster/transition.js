@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Transition Example</title>
+    <link rel="stylesheet" href="css/animation.css"/>
+    <link rel="stylesheet" href="css/demo-single-page.css"/>
+</head>
+
+<body>
+
+<div class="pt-wrapper">
+    <div class="pt-trigger-container">
+        <button class="pt-trigger" data-animation="1" data-goto="-1">Go to next page</button>
+        <button class="pt-trigger" data-animation="2" data-goto="-2">Go to previous page</button>
+        <button class="pt-trigger" data-animation="59-60-61-62-63-64-65-66-67" data-goto="-1">Next page - random anims</button>
+        <button class="pt-trigger" data-animation="50-51-52-53-54-55-56-57-58" data-goto="-2">Previous page - random anims</button>
+        <button class="pt-trigger" data-animation="50" data-goto="1">Go to page 1</button>
+        <button class="pt-trigger" data-animation="51" data-goto="2">Go to page 2</button>
+        <button class="pt-trigger" data-animation="52" data-goto="3">Go to page 3</button>
+        <button class="pt-trigger" data-animation="53" data-goto="4">Go to page 4</button>
+        <button class="pt-trigger" data-animation="58" data-goto="5">Go to page 5</button>
+        <button class="pt-trigger" data-animation="59-60-61-62-63-64-65-66-67" data-goto="6">Go to page 6</button>
+
+    </div>
+
+    <!--All Pages-->
+
+    <div class="pt-page pt-page-1">
+        <h1><strong>Page 1</strong></h1>
+    </div>
+    <div class="pt-page pt-page-2">
+        <h1><strong>Page 2</strong></h1>
+    </div>
+    <div class="pt-page pt-page-3">
+        <h1><strong>Page 3</strong></h1>
+    </div>
+    <div class="pt-page pt-page-4">
+        <h1><strong>Page 4</strong></h1>
+    </div>
+    <div class="pt-page pt-page-5">
+        <h1><strong>Page 5</strong></h1>
+    </div>
+    <div class="pt-page pt-page-6">
+        <h1><strong>Page 6</strong></h1>
+    </div>
+
+</div>
+
+
+
+<div class="pt-message">
+    <p>Your browser does not support CSS animations.</p>
+</div>
+
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/transition.js"></script>
+
+</body>
+</html>
