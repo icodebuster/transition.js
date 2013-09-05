@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #989898
+}
+
+.container {
+    margin: 3% auto 0;
+    width: 960px;
+}
+
+.pt-wrapper {
+    position: relative;
+    -webkit-perspective: 1200px;
+    -moz-perspective: 1200px;
+    perspective: 1200px;
+    display: block;
+    overflow: hidden;
+    background: #333;
+    text-align: center;
+
+    width:500px;
+    height: 400px;
+}
+
+.demo1 {
+    left: 0;
+    top: 0;
+}
+
+.demo2 {
+    left: 520px;
+    top: -400px;
+}
+
+.pt-page {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    visibility: hidden;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.pt-page-current, .no-js .pt-page {
+    visibility: visible;
+    z-index: 1;
+}
+
+.no-js body {
+    overflow: auto;
+}
+
+.pt-page-ontop {
+    z-index: 999;
+}
+
+/* Triggers (Buttons) */
+
+.pt-trigger {
+    cursor: pointer;
+}
+
+.btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+    width: 40%;
+    height: 40px;
+
+    border: medium none;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    display: block;
+    font-family: Calibri;
+    font-size: 16px;
+    font-weight: 700;
+    height: 40px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+/* Page Styles */
+
+.pt-page-1 {
+    background: #0ac2d2;
+}
+
+.pt-page-2 {
+    background: #7bb7fa;
+}
+
+.pt-page-3 {
+    background: #60d7a9;
+}
+
+.pt-page-4 {
+    background: #fdc162;
+}
+
+.pt-page-5 {
+    background: #fd6a62;
+}
+
+.pt-page-6 {
+    background: #f68dbb;
+}
