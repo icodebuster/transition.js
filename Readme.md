@@ -23,15 +23,15 @@ Getting Started
 
 * **.pt-page**     - Add this class to all the individual pages.
 
-* **data-animation** - This attribute is added to **`.pt-trigger`** element with values between **`1`** to **`67`**. If you need random animation then the values should be separated by **`-`** 
+* **data-animation** - This attribute is added to `.pt-trigger` element with values between `1` to `67`. If you need random animation then the values should be separated by **`-`** 
 
  **`data-animation="57"`** it does the 57th animation.
 
  **`data-animation="50-51-52-53-54"`** it does a random animation from the list.
 
-* **data-goto** - This attribute is added to **`.pt-trigger`** element, with values **`-1`** or **`-2`** or any valid page number starting from 1 inside the **`.pt-wrapper`**.    
+* **data-goto** - This attribute is added to `.pt-trigger` element, with values `-1` or `-2` or any valid page number starting from 1 inside the **`.pt-wrapper`**.    
 
- **`data-goto="-1"`** trigger next page.
+ `data-goto="-1"` trigger next page.
 
  **`data-goto="-2"`** trigger previous page.
 
