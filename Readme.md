@@ -5,11 +5,11 @@ This repository is just a wrapper around the code provided for [Codrops article 
 
 Features
 -------
-* Next page transition
-* Previous page transition
-* Go to a particular page
-* Add custom animation
-* Add a list of animation to be played randomly
+* Next page transition.
+* Previous page transition.
+* Go to a particular page.
+* Add custom animation.
+* Add a list of animation to be played randomly.
 
 
 Getting Started
@@ -76,10 +76,10 @@ Contributing
 -------
 
 1. Fork it.
-2. Create a branch (`git checkout -b my_transition`)
-3. Commit your changes (`git commit -am "Added Feature"`)
-4. Push to the branch (`git push origin my_transition`)
-5. Open a [Pull Request](https://github.com/icodebuster/transition.js/pulls)
+2. Create a branch. (`git checkout -b my_transition`)
+3. Commit your changes. (`git commit -am "Added Feature"`)
+4. Push to the branch. (`git push origin my_transition`)
+5. Open a [Pull Request].(https://github.com/icodebuster/transition.js/pulls)
 6. Enjoy a refreshing and wait.
 
 
