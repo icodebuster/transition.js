@@ -72,6 +72,29 @@ Adding the **HTML**
  something like **`data-animation="1:10"`** will make random animation from 1-10.
 * More samples.
 
+###Working with Scroll Navigation and Arrow Key Navigation
+    <script type="text/javascript">
+        $(document).ready(function (){
+            $('body').mousewheel(function(event, delta) {
+                if (delta < 0 ){
+                     $("#nextpage").trigger("click");
+                }
+                else if (delta > 0){
+                     $("#prevpage").trigger("click");
+                }
+             });
+
+            $("body").keydown(function(e) {
+               if(e.keyCode == 37) { // left
+                    $("#prevpage").trigger("click");
+               }
+               else if(e.keyCode == 39) { // right
+                    $("#nextpage").trigger("click");
+               }
+          });
+        });
+    </script>
+
 Contributing
 -------
 
