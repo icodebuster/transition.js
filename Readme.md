@@ -73,8 +73,12 @@ Adding the **HTML**
 * More samples.
 
 ###Working with Scroll Navigation and Arrow Key Navigation
+
+[Download latest jquery.mousewheel](https://github.com/brandonaaron/jquery-mousewheel/tags) for mouse scroll
+
     <script type="text/javascript">
         $(document).ready(function (){
+            // Mouse Scroll
             $('body').mousewheel(function(event, delta) {
                 if (delta < 0 ){
                      $("#nextpage").trigger("click");
@@ -83,7 +87,7 @@ Adding the **HTML**
                      $("#prevpage").trigger("click");
                 }
              });
-
+            // Arrow Keys
             $("body").keydown(function(e) {
                if(e.keyCode == 37) { // left
                     $("#prevpage").trigger("click");
