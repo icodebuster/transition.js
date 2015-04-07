@@ -25,9 +25,9 @@
     "tests",
     "*.md",
     "*.html",
-    "./css/demo-multi-element.css",
-    "./css/demo-single-page.css",
-    "./js/jquery-2.1.3.min.js"
+    "css/demo-multi-element.css",
+    "css/demo-single-page.css",
+    "js/jquery-2.1.3.min.js"
   ],
   "dependencies": {
     "jquery": "~2.1.3"
