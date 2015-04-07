@@ -12,6 +12,13 @@ Features
 * Add a list of animation to be played randomly.
 
 
+Install
+-------
+
+####Install via Bower
+```bower install transition.js```
+
+
 Getting Started
 -------
 
