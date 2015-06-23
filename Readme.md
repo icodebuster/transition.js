@@ -113,11 +113,11 @@ Contributing
 2. Create a branch. (`git checkout -b my_transition`)
 3. Commit your changes. (`git commit -am "Added Feature"`)
 4. Push to the branch. (`git push origin my_transition`)
-5. Open a [Pull Request].(https://github.com/icodebuster/transition.js/pulls)
-6. Enjoy a refreshing and wait.
+5. Open a [Pull Request](https://github.com/icodebuster/transition.js/pulls).
+6. Enjoy a refreshment and wait.
 
 
 License
 -------
-All the css animations in animation.css were written by Codrops and therefore fall under [their license](http://tympanus.net/codrops/licensing/).
+All the CSS animations in animation.css were written by Codrops and therefore fall under [their license](http://tympanus.net/codrops/licensing/).
 All other source code is released under the MIT License.
